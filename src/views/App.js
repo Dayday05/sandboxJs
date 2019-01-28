@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import HeaderBar from './components/HeaderBar/HeaderBar';
+import HeaderBar from '../components/HeaderBar/HeaderBar';
 
 class App extends Component {
   render() {
