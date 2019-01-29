@@ -39,6 +39,9 @@ const styles = theme => ({
       duration: theme.transitions.duration.enteringScreen,
     }),
   },
+  titleHeader: {
+    fontWeight: 'bold',
+  },
   menuButton: {
     marginLeft: 12,
     marginRight: 20,
@@ -113,8 +116,8 @@ class DrawerHeaderBar extends React.Component {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" color="inherit" noWrap>
-              Persistent drawer
+            <Typography className={classes.titleHeader} variant="h5" color="inherit" noWrap>
+              Sandbox
             </Typography>
           </Toolbar>
         </AppBar>

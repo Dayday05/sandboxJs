@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import HeaderBar from '../components/HeaderBar/HeaderBar';
+import DrawerHeaderBar from '../components/HeaderBar/drawer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
       <header>
-        <HeaderBar />
+        <DrawerHeaderBar/>
         </header>
       </div>
     );
